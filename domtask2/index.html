@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom task 2</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <nav>
+        <input type="text" placeholder="enter the product name">
+
+
+    </nav>
+    
+
+    <main>
+         
+        <div class="card">
+        <img src="https://m.media-amazon.com/images/I/61zwK7mmLtL.jpg"alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+    <div class="card">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+    <div class="card">
+        <img src="https://www.bbassets.com/media/uploads/p/xl/40329890_1-fujifilm-instax-mini-12-instant-camera-pastel-blue.jpg" alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+    <div class="card">
+        <img src="https://www.bajajauto.com/-/media/Assets/bajajauto/blogs/images/blog-22/Bajaj%20Pulsar%20NS160%20Pearl%20White" alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+    <div class="card">
+        <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1200-1286,pr-true,f-auto,q-80/cms/product_variant/d028caa0-9f4c-44b8-989f-8b425fe97c9d/Fire-Boltt-Ninja-Call-Pro-Max-Smartwatch-2-01-Display-BT-Calling-Pink.jpg" alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTr4S5XbBmNratfmWp1bbt58CHm8sAurwK0S6lVSKRD3_DD1_Sh69MNMvwYxzTVwIyn6pGy-dGDd_-CgSwLeaG4R_ZZr04qmkvYy4lz2_RZSny-OdGkKgvQGQ" alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+    <div class="card">
+        <img src="https://i5.walmartimages.com/asr/33cab552-4fb5-48a2-a206-323f4c11587a.3a5c1b5b0a3f45f75f7fb7ff6c05fe3c.jpeg" alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+    <div class="card">
+        <img src="https://fingobrain.com/wp-content/uploads/2023/10/14966264c-.jpg" alt="">
+        <h2>product name is:</h2>
+        <p>price is :</p>
+        <P>rating is:</P>
+    </div>
+   
+
+
+
+    </main>
+    
+ <script src="./app.js"></script>
+
+</body>
+</html>

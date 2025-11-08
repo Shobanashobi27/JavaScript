@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let subjects=['html','css','js','react','java','python']
+        let ol=document.querySelector("ol")
+
+        subjects.map((ele)=>{
+            console.log(ele)
+
+            let li=document.createElement("li")
+            li.innerText=ele
+            ol.append(li)
+            
+        })
+    </script>
+</body>
+</html>
