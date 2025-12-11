@@ -1,1 +1,1 @@
-import {}
+import { movies } from "./storage";//destructur
