@@ -12,3 +12,6 @@
 //};
 
 export let movies=["dude","lokah","bison"];
+export function abc(){
+  console.log("iam a from storage.js");
+}
