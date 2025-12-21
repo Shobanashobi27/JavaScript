@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Page center alignment */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff2f6;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+div {
+    text-align: center;
+}
+
+/* Input + button wrapper */
+div > div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Input field */
+input[type="text"] {
+    padding: 10px 14px;
+    width: 220px;
+    font-size: 16px;
+    border: 2px solid rgb(149, 104, 20);
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+    border-color: #4a6cf7;
+}
+
+/* Button styling */
+button {
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none;
+    background-color: #4aecf7;
+    color: rgb(141, 51, 153);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #35d3e5;
+}
+
+/* Output area */
+#output {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+        <input type="text" placeholder="enter the city name">
+        <button>search</button>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="./weather.js"></script>
+</body>
+</html>

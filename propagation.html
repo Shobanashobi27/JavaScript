@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            padding:20px;
+
+        }
+        #parent{
+            background-color: red;
+        }
+        #child{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <h1>I am First</h1>
+        <h1>I am Second</h1>
+        <h1>I am Third</h1>
+    </div> -->
+
+    
+    <div id="parent">
+        <div id="child">
+            <button onclick="abc">Click Me</button>
+        </div>
+    </div>
+    <script src="./propagation.js"></script>
+</body>
+</html>
